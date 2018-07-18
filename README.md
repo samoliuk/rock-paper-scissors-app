@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors game
 
-##Installation instructions
+## Installation instructions
 
 ### Copy the repository
 `git clone https://github.com/samoliuk/rock-paper-scissors-app.git`
