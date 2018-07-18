@@ -1,0 +1,9 @@
+<h1> Game result </h1>
+
+<p>
+  <div> You threw: <%= @game.user_choice %> </div>
+  <div> Server threw: <%= @game.server_choice %> </div>
+  <div> Your result: <%= @game.result %> </div>
+</p>
+
+<%= link_to "Play once again", root_path %>

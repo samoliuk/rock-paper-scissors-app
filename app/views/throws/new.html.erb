@@ -1,0 +1,24 @@
+<h1> Play Rock-Paper-Scissors game </h1>
+
+<%= form_tag("/throw", method: "post") do %>
+
+  <div>
+    <%= radio_button_tag(:sign, "rock", true) %>
+    <%= label_tag(:sign, "Rock") %>
+  </div>
+
+  <div>
+    <%= radio_button_tag(:sign, "paper") %>
+    <%= label_tag(:sign, "Paper") %>
+  </div>
+
+  <div>
+    <%= radio_button_tag(:sign, "scissors") %>
+    <%= label_tag(:sign, "Scissors") %>
+  </div>
+
+  <div>
+    <%= submit_tag("Play") %>
+  </div>
+
+<% end %>
